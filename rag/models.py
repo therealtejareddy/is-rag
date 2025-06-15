@@ -4,7 +4,7 @@ from .utils import get_ollama_server_url
 
 llm_model = OllamaLLM(
     base_url=get_ollama_server_url(),
-    model="mistral",
+    model="smollam",
     temperature=0.1,
     max_tokens=2048,
     streaming=True
