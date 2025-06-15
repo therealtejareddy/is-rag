@@ -1,0 +1,23 @@
+# gitingonre for streamlit app
+# Python cache files
+__pycache__/
+# Byte-compiled files
+*.py[cod]
+# C extensions
+*.so
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+eggs-info/
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+# Unit test / coverage reports
+.coverage
+.coverage.*
+# Translations
+*.mo
+*.pot
