@@ -9,9 +9,6 @@ RUN apt-get update && apt-get install -y \
     python3 \
     python3-pip
 
-# Install Ollama
-RUN curl -fsSL https://ollama.com/install.sh | sh
-
 # Install Python packages
 COPY requirements.txt .
 RUN pip3 install -r requirements.txt
